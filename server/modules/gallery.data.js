@@ -1,6 +1,6 @@
 const galleryItems = [
-    { id: 1, path: 'images/goat_small.jpg', description: 'Photo of a goat taken at Glacier National Park.', likes: 0 },
-    { id: 2, path: 'images/IMG_1757.jpg', description: 'family.', likes: 0 }
+    { id: 1, path: 'images/DSC_0893.jpg', description: 'Ready to go out and get some candy.', likes: 0 },
+    { id: 2, path: 'images/IMG_1757.jpg', description: 'Family picture at nephew wedding.', likes: 0 }
 ];
 
 module.exports = galleryItems;
