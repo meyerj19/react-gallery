@@ -13,7 +13,7 @@ function App() {
   const [imageLike, setImageLike] = useState();
 
 
-  
+
 
   const fetchGallery = () => {
     axios({
@@ -35,15 +35,15 @@ function App() {
   }, [])
 
   const handleLike = (id) => {
-  
+
     axios({
       method: 'PUT',
-      url: '/gallery/like/' +id
-    }) 
+      url: '/gallery/like/' + id
+    })
       .then((response) => {
         console.log('Response:', response);
         fetchGallery();
-        
+
         setImagePath('');
         setImageLike('')
       })
