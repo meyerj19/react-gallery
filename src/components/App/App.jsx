@@ -38,7 +38,7 @@ function App() {
 
     axios({
       method: 'PUT',
-      url: '/gallery/like/' + id
+      url: `/gallery/like/` +id
     })
       .then((response) => {
         console.log('Response:', response);
