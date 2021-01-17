@@ -18,4 +18,4 @@ function GalleryItem(galleryItem) {
     )
 }
 
-export default GalleryItem
+export default GalleryIten
